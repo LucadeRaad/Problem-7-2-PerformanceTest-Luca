@@ -5,7 +5,7 @@ import java.io.PrintStream;
 public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
-        int size = 1000; // So I can change how long the program takes
+        int size = 10000; // So I can change how long the program takes
         MainTest test = new MainTest();
         long[] outputsLogN = new long[size];
         for(int i = 0; i < outputsLogN.length; i++) {
